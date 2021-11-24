@@ -1,0 +1,178 @@
+# Compile of FA.v was successful.
+vsim work.FA
+# vsim work.FA 
+# Start time: 07:18:32 on Nov 24,2021
+# Loading work.FA
+add wave -position insertpoint  \
+sim:/FA/cin \
+sim:/FA/in1 \
+sim:/FA/in2 \
+sim:/FA/cout \
+sim:/FA/s
+force -freeze sim:/FA/in1 0 0
+force -freeze sim:/FA/in2 0 0
+force -freeze sim:/FA/cin 0 0
+run
+force -freeze sim:/FA/cin St1 0
+run
+force -freeze sim:/FA/in2 St1 0
+force -freeze sim:/FA/cin St0 0
+run
+force -freeze sim:/FA/cin St1 0
+run
+force -freeze sim:/FA/in1 St1 0
+force -freeze sim:/FA/in2 St0 0
+force -freeze sim:/FA/cin St0 0
+run
+force -freeze sim:/FA/cin St1 0
+run
+force -freeze sim:/FA/in2 St1 0
+force -freeze sim:/FA/cin St0 0
+run
+force -freeze sim:/FA/cin St1 0
+run
+# Compile of 4_bit_adder_subtractor.v failed with 1 errors.
+# Compile of 4_bit_adder_subtractor.v failed with 1 errors.
+# Compile of 4_bit_adder_subtractor.v failed with 1 errors.
+# Compile of 4_bit_adder_subtractor.v was successful.
+# Compile of 4_bit_adder_subtractor.v was successful.
+vsim work.Four_bit_adder_subtractor
+# End time: 07:32:41 on Nov 24,2021, Elapsed time: 0:14:09
+# Errors: 0, Warnings: 8
+# vsim work.Four_bit_adder_subtractor 
+# Start time: 07:32:41 on Nov 24,2021
+# Loading work.Four_bit_adder_subtractor
+# ** Error: (vsim-3037) Missing instance name in instantiation of 'FA'.
+#    Time: 0 ps  Iteration: 0  Instance: /Four_bit_adder_subtractor File: D:/Pranto/study/2-1/DSD Lab/4_bit_adder_subtractor.v Line: 18
+# Error loading design
+# End time: 07:32:41 on Nov 24,2021, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 1
+# Compile of 4_bit_adder_subtractor.v was successful.
+vsim work.Four_bit_adder_subtractor
+# vsim work.Four_bit_adder_subtractor 
+# Start time: 07:33:26 on Nov 24,2021
+# Loading work.Four_bit_adder_subtractor
+# ** Error: (vsim-3037) Missing instance name in instantiation of 'FA'.
+#    Time: 0 ps  Iteration: 0  Instance: /Four_bit_adder_subtractor File: D:/Pranto/study/2-1/DSD Lab/4_bit_adder_subtractor.v Line: 18
+# Error loading design
+# End time: 07:33:26 on Nov 24,2021, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 2
+vsim work.Four_bit_adder_subtractor
+# vsim work.Four_bit_adder_subtractor 
+# Start time: 07:33:32 on Nov 24,2021
+# Loading work.Four_bit_adder_subtractor
+# ** Error: (vsim-3037) Missing instance name in instantiation of 'FA'.
+#    Time: 0 ps  Iteration: 0  Instance: /Four_bit_adder_subtractor File: D:/Pranto/study/2-1/DSD Lab/4_bit_adder_subtractor.v Line: 18
+# Error loading design
+# End time: 07:33:33 on Nov 24,2021, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 1
+vsim work.FA
+# vsim work.FA 
+# Start time: 07:33:34 on Nov 24,2021
+# Loading work.FA
+vsim work.Four_bit_adder_subtractor
+# End time: 07:33:43 on Nov 24,2021, Elapsed time: 0:00:09
+# Errors: 0, Warnings: 1
+# vsim work.Four_bit_adder_subtractor 
+# Start time: 07:33:44 on Nov 24,2021
+# Loading work.Four_bit_adder_subtractor
+# ** Error: (vsim-3037) Missing instance name in instantiation of 'FA'.
+#    Time: 0 ps  Iteration: 0  Instance: /Four_bit_adder_subtractor File: D:/Pranto/study/2-1/DSD Lab/4_bit_adder_subtractor.v Line: 18
+# Error loading design
+# End time: 07:33:44 on Nov 24,2021, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 1
+# Compile of 4_bit_adder_subtractor.v was successful.
+vsim work.Four_bit_adder_subtractor
+# vsim work.Four_bit_adder_subtractor 
+# Start time: 07:34:22 on Nov 24,2021
+# Loading work.Four_bit_adder_subtractor
+# Compile of 4_bit_adder_subtractor.v was successful.
+vsim work.Four_bit_adder_subtractor
+# End time: 07:36:17 on Nov 24,2021, Elapsed time: 0:01:55
+# Errors: 0, Warnings: 3
+# vsim work.Four_bit_adder_subtractor 
+# Start time: 07:36:18 on Nov 24,2021
+# Loading work.Four_bit_adder_subtractor
+# Loading work.FA
+add wave -position insertpoint  \
+sim:/Four_bit_adder_subtractor/a0 \
+sim:/Four_bit_adder_subtractor/b0 \
+sim:/Four_bit_adder_subtractor/cin \
+sim:/Four_bit_adder_subtractor/cout0 \
+sim:/Four_bit_adder_subtractor/mood \
+sim:/Four_bit_adder_subtractor/s0
+force -freeze sim:/Four_bit_adder_subtractor/mood 0 0
+force -freeze sim:/Four_bit_adder_subtractor/a0 0 0
+force -freeze sim:/Four_bit_adder_subtractor/b0 0 0
+force -freeze sim:/Four_bit_adder_subtractor/cin 0 0
+run
+force -freeze sim:/Four_bit_adder_subtractor/b0 St1 0
+run
+force -freeze sim:/Four_bit_adder_subtractor/a0 St1 0
+run
+force -freeze sim:/Four_bit_adder_subtractor/cin St1 0
+run
+# Compile of 4_bit_adder_subtractor.v was successful.
+vsim work.Four_bit_adder_subtractor
+# End time: 07:41:12 on Nov 24,2021, Elapsed time: 0:04:54
+# Errors: 0, Warnings: 2
+# vsim work.Four_bit_adder_subtractor 
+# Start time: 07:41:12 on Nov 24,2021
+# Loading work.Four_bit_adder_subtractor
+# Loading work.FA
+# Compile of 4_bit_adder_subtractor.v was successful.
+vsim work.Four_bit_adder_subtractor
+# End time: 07:43:49 on Nov 24,2021, Elapsed time: 0:02:37
+# Errors: 0, Warnings: 2
+# vsim work.Four_bit_adder_subtractor 
+# Start time: 07:43:49 on Nov 24,2021
+# Loading work.Four_bit_adder_subtractor
+# Loading work.FA
+add wave -position insertpoint  \
+sim:/Four_bit_adder_subtractor/a0 \
+sim:/Four_bit_adder_subtractor/a1 \
+sim:/Four_bit_adder_subtractor/a2 \
+sim:/Four_bit_adder_subtractor/a3 \
+sim:/Four_bit_adder_subtractor/b0 \
+sim:/Four_bit_adder_subtractor/b1 \
+sim:/Four_bit_adder_subtractor/b2 \
+sim:/Four_bit_adder_subtractor/b3 \
+sim:/Four_bit_adder_subtractor/mood \
+sim:/Four_bit_adder_subtractor/s3 \
+sim:/Four_bit_adder_subtractor/s1 \
+sim:/Four_bit_adder_subtractor/s0 \
+sim:/Four_bit_adder_subtractor/s2 \
+sim:/Four_bit_adder_subtractor/cout
+force -freeze sim:/Four_bit_adder_subtractor/mood {} 0
+force -freeze sim:/Four_bit_adder_subtractor/mood St0 0
+force -freeze sim:/Four_bit_adder_subtractor/a0 {} 0
+force -freeze sim:/Four_bit_adder_subtractor/a1 1 0
+force -freeze sim:/Four_bit_adder_subtractor/a0 St0 0
+force -freeze sim:/Four_bit_adder_subtractor/a1 St1 0
+force -freeze sim:/Four_bit_adder_subtractor/a2 1 0
+force -freeze sim:/Four_bit_adder_subtractor/a3 0 0
+force -freeze sim:/Four_bit_adder_subtractor/b0 1 0
+force -freeze sim:/Four_bit_adder_subtractor/b1 0 0
+force -freeze sim:/Four_bit_adder_subtractor/b2 1 0
+force -freeze sim:/Four_bit_adder_subtractor/b3 1 0
+run
+force -freeze sim:/Four_bit_adder_subtractor/mood St1 0
+run
+force -freeze sim:/Four_bit_adder_subtractor/b1 St1 0
+force -freeze sim:/Four_bit_adder_subtractor/b2 St0 0
+force -freeze sim:/Four_bit_adder_subtractor/b3 St0 0
+run
+force -freeze sim:/Four_bit_adder_subtractor/b1 St1 0
+force -freeze sim:/Four_bit_adder_subtractor/mood St0 0
+force -freeze sim:/Four_bit_adder_subtractor/a0 St0 0
+force -freeze sim:/Four_bit_adder_subtractor/a1 St1 0
+force -freeze sim:/Four_bit_adder_subtractor/a2 St1 0
+force -freeze sim:/Four_bit_adder_subtractor/a3 St0 0
+force -freeze sim:/Four_bit_adder_subtractor/b0 St1 0
+force -freeze sim:/Four_bit_adder_subtractor/b1 St1 0
+force -freeze sim:/Four_bit_adder_subtractor/b2 St0 0
+force -freeze sim:/Four_bit_adder_subtractor/b3 St0 0
+run
+# End time: 08:01:18 on Nov 24,2021, Elapsed time: 0:17:29
+# Errors: 0, Warnings: 1
+# Closing project D:/Pranto/study/2-1/DSD Lab/FirstProject.mpf
